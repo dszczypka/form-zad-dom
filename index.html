@@ -9,10 +9,10 @@
 <body>
     <form action="https://formspree.io/dominik.szczypka@gmail.com" method="POST">
         <label for="name">Imię:</label>
-        <input type="text" name="Imię:" id="name"><br>
+        <input type="text" name="Imię" id="name"><br>
         
         <label for="surname">Nazwisko:</label>
-        <input type="text" name="Nazwisko:" id="surname"><br>
+        <input type="text" name="Nazwisko" id="surname"><br>
         
         <label for="E-mail">Adres e-mail:</label>
         <input type="text" name="Adres e-mail" id="E-mail"><br>
@@ -21,7 +21,7 @@
         <input type="text" name="Telefon:" id="phone"><br>
         
         <label>Miasto:</label>
-        <select name="Miasto:">
+        <select name="Miasto">
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
@@ -31,9 +31,10 @@
         <input type="radio" name="Płeć:" value="Mężczyzna"> Mężczyzna<br>
         <input type="radio" name="Płeć" value="Kobieta">Kobieta<br>
         
-        <label for="zgoda"><input type="checkbox" id="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
+        <input id="zgoda" type="checkbox">
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
         
-        <textarea placeholder="Tu wpisz wiadomość"></textarea><br>
+        <textarea rows="5" cols="50" placeholder="Tu wpisz wiadomość"></textarea><br>
                 
         <input type="submit" value="Wyślij wiadomość">
         
