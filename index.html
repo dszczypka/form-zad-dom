@@ -20,21 +20,20 @@
         <label for="phone">Telefon:</label>
         <input type="text" name="Telefon:" id="phone"><br>
         
-        <label>Miasto:</label>
-        <select name="Miasto:">
+        <label for="city">Miasto:</label>
+        <select name="Miasto:" id="city">
             <option value="Kraków">Kraków</option>
             <option value="Warszawa">Warszawa</option>
             <option value="Gdańsk">Gdańsk</option>
         </select><br>
         
-        <label>Płeć:</label><br>
-            <input type="radio" name="gender" value="Mężczyzna">
-            <label>Mężczyzna</label><br>
-            <input type="radio" name="gender" value="Kobieta">
-            <label>Kobieta</label><br>
+            <input type="radio" name="gender" id="plec_m" value="Mężczyzna">
+            <label for="plec_m">Mężczyzna</label><br>
+            <input type="radio" name="gender" id="plec_k" value="Kobieta">
+            <label for="plec_m">Kobieta</label><br>
             
-        <input name="zgoda na przetwarzenie danych osobowych" value="Wyrażam zgodę na przetwarzanie danych osobowych" type="checkbox">
-        <label>Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
+        <input name="zgoda na przetwarzenie danych osobowych" id="zgoda" value="Wyrażam zgodę na przetwarzanie danych osobowych" type="checkbox">
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label><br>
         
         <textarea name="message" placeholder="Tu wpisz wiadomość"></textarea><br>                                                                                
         <input type="submit" value="Wyślij wiadomość">
